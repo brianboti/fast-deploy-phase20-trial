@@ -1,0 +1,14 @@
+{
+  "name": "node-port",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small Express service on a literal port, for Fast Deploy's Phase 20 live exercise. Not a real service.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

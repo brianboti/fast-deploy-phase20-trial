@@ -1,0 +1,16 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Fast Deploy Django trial</title>
+  <link rel="stylesheet" href="{% static 'trial.css' %}">
+</head>
+<body>
+  <main>
+    <h1>Fast Deploy Django trial</h1>
+    <p>Django {{ django }} on Python {{ python }}; {{ users }} user{{ users|pluralize }} in the database.</p>
+    <p>A test service for Fast Deploy's Phase 20 live exercise. Not a real service.</p>
+  </main>
+</body>
+</html>
